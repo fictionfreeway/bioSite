@@ -80,8 +80,9 @@ nav a {
 
 .collage div {
     display: inline-block;
+    vertical-align: top;
     height: 100%;
-    width: 50%;
+    width: 40%;
 }
 
 img {
@@ -96,7 +97,9 @@ img {
 }
 
 .large_collage_img {
-    width: 40%;
+    display: block;
+    vertical-align: top;
+    width: 100%;
     margin-left: 20px;
     height: 100%;
 }
