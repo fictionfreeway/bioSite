@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Source+Serif+4:wght@400;600&display=swap');
+
+.currentPage, h1{
+    font-weight: 400;
+    font-size: 4em;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+html {
+    background-color: #04395e;
+}
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+nav {
+    margin-left: 30px;
+    font-family: "Source-Serif-4", serif;
+}
+
+nav a {
+    font-weight: 400;
+    font-size: 2em;
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.line {
+    background-color: #d5896f;
+    height: 15px;
+    width: 100%;
+    border: 0;
+}
+
+.portrait{
+    display: block;
+    background-color: #fff;
+    height: 600px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    border: 10px solid #d5896f;
+}
+
+.content {
+    background-color: #70a288;
+    display: inline-flex;
+    align-items: center;
+    width: 40%;
+    height: 500px;
+    margin-left: 20px;
+    color: #fff;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.collage {
+    display: inline-block;
+    align-items: center;
+    width: 45%;
+    margin-left: 10%;
+    height: 540px;
+    margin-top: 0;
+    vertical-align: top;
+}
+
+.collage div {
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+}
+
+img {
+    background-color: #fff;
+}
+
+.small_collage_img {
+    display: block;
+    height: 48%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.large_collage_img {
+    width: 40%;
+    margin-left: 20px;
+    height: 100%;
+}
