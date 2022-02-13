@@ -38,6 +38,16 @@ nav a {
     margin-bottom: 15px;
 }
 
+footer {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+footer a {
+    margin: 0px 20px;
+}
+
 .line {
     background-color: #d5896f;
     height: 15px;
