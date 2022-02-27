@@ -10,6 +10,7 @@
 
 html {
     background-color: #04395e;
+    color: #fff;
 }
 
 body {
@@ -19,10 +20,11 @@ body {
 
 a {
     text-decoration: none;
+    color: #fff;
 }
 
-a:visited {
-    color: white;
+a:visited, a:link, a:hover, a:active {
+    color: inherit;
 }
 
 nav {
